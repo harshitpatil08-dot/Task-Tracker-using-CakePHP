@@ -59,13 +59,13 @@ php bin/cake.php server
 
 Database Schema :
 
-id INT AUTO_INCREMENT PRIMARY KEY
-title VARCHAR(255)
-description TEXT
-priority ENUM('Low','Medium','High')
-is_completed TINYINT(1)
-created DATETIME
-modified DATETIME
+- id INT AUTO_INCREMENT PRIMARY KEY
+- title VARCHAR(255)
+- description TEXT
+- priority ENUM('Low','Medium','High')
+- is_completed TINYINT(1)
+- created DATETIME
+- modified DATETIME
 
 What I Learned?
 
